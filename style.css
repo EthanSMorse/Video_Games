@@ -1,0 +1,7 @@
+.animate__delay-A {
+    --animate-delay: 1.5s;
+}
+
+.animate__delay-B {
+    --animate-delay: 0.5s;
+}
