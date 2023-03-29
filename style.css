@@ -18,6 +18,14 @@ body {
     background-color: rgb(249, 178, 8);
 }
 
+.index-posts-images {
+    height: 220px;
+}
+
+.logo {
+    width: 200px;
+}
+
 .fixed {
     position: fixed;
 }
