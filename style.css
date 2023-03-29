@@ -1,7 +1,23 @@
-.animate__delay-A {
-    --animate-delay: 1.5s;
+.animate__animated.animate__delay-500ms {
+  -webkit-animation-delay: 500ms;
+  animation-delay: 500ms;
 }
 
-.animate__delay-B {
-    --animate-delay: 0.5s;
+.animate__animated.animate__delay-1500ms {
+  -webkit-animation-delay: 1500ms;
+  animation-delay: 1500ms;
+}
+
+body {
+    background: rgb(252,84,4,1);
+    background: linear-gradient(180deg, rgba(252,84,4,1) 0%, rgba(247,253,4) 100%);
+    background-attachment: fixed;
+}
+
+.index-posts {
+    background-color: rgb(249, 178, 8);
+}
+
+.fixed {
+    position: fixed;
 }
