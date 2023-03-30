@@ -8,14 +8,32 @@
   animation-delay: 1500ms;
 }
 
+.animate__animated.animate__delay-2500ms {
+    -webkit-animation-delay: 2500ms;
+    animation-delay: 2500ms;
+  }
+
+.animate__animated.animate__delay-3000ms {
+    -webkit-animation-delay: 3000ms;
+    animation-delay: 3000ms;
+  }
+
 body {
     background: rgb(252,84,4,1);
     background: linear-gradient(180deg, rgba(252,84,4,1) 0%, rgba(247,253,4) 100%);
     background-attachment: fixed;
 }
 
-.index-posts {
+.bg-color {
     background-color: rgb(249, 178, 8);
+}
+
+.form-control:focus {
+    background-color: rgb(197, 121, 6);
+}
+
+.btn:hover {
+    background-color: rgb(197, 121, 6);
 }
 
 .index-posts-images {
