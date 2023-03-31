@@ -139,13 +139,14 @@
     </div>
     <div class="mt-1 mb-5 text-center animate__animated animate__fadeInUp animate__delay-500ms">
       <h2 class="mb-5">Contact form</h2>
-      <p class="lead mb-5">Below is an example form built entirely with Bootstrap’s form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>
+      <p class="lead mb-5">If you've got any questions, or maybe just want to tell me something, below you can type in whatever it is and send it to me! Just press submit after you're done.</p>
     </div>
+  </main>
 
     <div class="row g-5 justify-content-center">
       <div class="col-md-7 col-lg-8">
         <h4 class="mb-3 animate__animated animate__fadeInLeft animate__delay-1s">Contact Information</h4>
-        <form class="needs-validation" novalidate>
+        <form action="https://us-central1-steam-center-app-dev.cloudfunctions.net/formToEmail" method="post">
           <div class="row g-3">
             <div class="col-sm-6 animate__animated animate__fadeInLeft animate__delay-1500ms">
               <label for="firstName" class="form-label">First name</label>
@@ -167,8 +168,8 @@
               <textarea class="form-control bg-color border border-danger" id="query" placeholder="Type Questions/Feedback here"></textarea>
             </div>
 
-          <button class="w-100 btn bg-color animate__animated animate__fadeInUp animate__delay-3000ms mt-5" type="submit">Submit</button>
-
+          <button class="w-100 btn bg-color animate__animated animate__fadeInUp animate__delay-3000ms mt-5 mb-5" type="submit">Submit</button>
+          <input name="send-to" value="emorse@brooklynsteamcenter.org" hidden>
         </form>
       </div>
     </div>
