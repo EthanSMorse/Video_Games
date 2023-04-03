@@ -24,6 +24,40 @@ body {
     background-attachment: fixed;
 }
 
+.tf2-jumbo {
+  background-image: url(Optimized-tf2.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.AL-jumbo {
+  background-image: url(AL.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.O2-jumbo {
+  background-image: url(O2.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.valorant-jumbo {
+  background-image: url(valorant.jpeg);
+  background-size: cover;
+}
+
+.astroneer-jumbo {
+  background-image: url(astroneer.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.para {
+  height: 350px;
+}
+
+
 .bg-color {
     background-color: rgb(249, 178, 8);
 }
