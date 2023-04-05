@@ -57,6 +57,13 @@ body {
   height: 350px;
 }
 
+.comments-margin {
+  margin-left: 100px;
+}
+
+.post-margin {
+  margin-left: 400px;
+}
 
 .bg-color {
     background-color: rgb(249, 178, 8);
